@@ -12,15 +12,15 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-public class TaskAdCApplication extends SpringBootServletInitializer{
+public class TaskAdCApplication /*extends SpringBootServletInitializer*/{
 
 	
 	
-	@Override
+	/*@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		// TODO Auto-generated method stub
 		return builder.sources(TaskAdCApplication.class);
-	}
+	}*/
 
 	public static void main(String[] args){
 		SpringApplication.run(TaskAdCApplication.class, args);
